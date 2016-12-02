@@ -1,25 +1,27 @@
-]
-#container {
+
+div#container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; 
-  background-color: #AOC7C7;
   min-height:200px;
 }
-
-
-textarea {
-    
-    margin: 8px 0;
-    width: 100%;
-    height: auto;
-    padding: 12px;
-    box-sizing: border-box;
-    font-size: 1em;
+body  { 
+        font-family: 'halfmarathonfont';
+        background: linear-gradient(white,  black, white, white);
 }
+header {
 
+    margin-right: 30px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 15px;
+    margin-left: 20px;
+    background: linear-gradient(white, white, #ffa314);
+    border-collapse: collapse;
+    color: grey;
+
+}
     
     
 h1 {
@@ -31,15 +33,99 @@ h1 {
     margin-top:5px;
 }
 
+h2{
+    font-size: 2em;
+}
+h3 { 
+    font-size: 2em;
+}
+
+h4 {
+    font-size: .75em;
+    
+}
+h5 {
+    
+    font-size: 3em;
+}
+ h5{
+    
+    clear:left;
+}
+
+h6 {
+    
+    font-size: 2em;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+    margin-top:5px;
+}
+
 .image { 
    
-   margin-left: 110px;
-   margin-right: 100px; 
-   margin-bottom: 35px;
-   padding-bottom: 35px;
-   width: 100%; 
+   margin: 55px 150px 35px 220px;
+   width: 750px; 
+   border-radius: 15px;  
+   align-content: center;
 
 }
+pre{
+    
+    font-size: 1em;
+    font-family: 'halfmarathonfont';
+    line-height: normal;
+}
+
+.large{
+    
+    font-size:1.5em;
+    font-style: italic;
+}
+
+
+.start {
+    
+    font-size: 1.5em;
+    font-weight:200;
+    font-family:'halfmarathonfont';
+    text-decoration-line: underline;
+}
+
+.prestyle {
+    
+    font-size: 1.25em;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.imageabout { 
+   
+   margin: 55px 150px 35px 70px;
+ 
+   padding-bottom: 35px;  
+
+}
+
+
+div.about p{
+    
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div.about h2{
+    
+    text-align: center;
+}
+
+
+.welcome {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'halfmarathonfont';
+}
+
 .imagecourse { 
    
    margin-left: 90px;
@@ -49,24 +135,114 @@ h1 {
    width: 100%; 
 
 }
-.imageabout { 
-   
-   margin-left: 70px;
-   margin-right: 150px; 
-   margin-bottom: 35px;
-   padding-bottom: 35px;
-   width: 100%; 
 
+div.about1{
+    
+    width: 450px;
+    border: thick;
+    border-radius: 15px;
+    float: left;
+    font-size: 1.5em;
+    margin-right: 100px;
 }
-header {
+div.about2{
+    
+    width: 450px;
+    border: thick;
+    border-radius: 15px;
+    float: left;
+    font-size: 1.5em;
+}
+div.about3{
+    
+    font-size: 1.5em;
+    clear:left;
+}
+
+
+div#travel{
     margin-right: 30px;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     border-radius: 15px;
     margin-left: 20px;
-    background: linear-gradient(white, white, #1CA8C3);
+    background: linear-gradient(white, white, #24ccbf);
     border-collapse: collapse;
+    height: auto;
+    margin-top: 80px; 
+    font-family: 'halfmarathonfont';
+}
+
+div#travel p{
+    font-family: 'halfmarathonfont';
+    font-size: 1.5em;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+div#travel h2 {
+    font-family: 'halfmarathonfont';
+    text-align: center;
+    font-size: 3em;
+    color:#ffa314;
+}
+div#travel h3 {
+    
+    text-align: center;
+    font-size: 3em;
+    font: helvetica; 
+    color: #ffa314;
+}
+div#plane{
+    background-color: lightgray;
+    width:240px;
+    float: left;
+    margin-left:20px;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+div#train{
+    
+    width:240px;
+    padding: 10px;
+    margin-left:20px;
+    margin-right:10px;
+    float: left;
+    border-radius:15px;
+    background: linear-gradient(white, white, lightgreen, white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+div#bus{
+  
+    width:240px;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+    border-radius:15px;
+    background: linear-gradient(white, white,red, white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 
 }
+div#taxi{
+
+    width:240px;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+    border-radius:15px;
+    background: linear-gradient(white, white, yellow, white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+
+}
+div.details a:link a:visited{
+    font-weight: 200;
+    color: black;
+    
+}
+
 div#register{
     
     border-collapse: collapse;
@@ -75,58 +251,117 @@ div#register{
     border-radius: 10px;
     border: thick;
     padding: 5px;
-    margin-right: 450px;
+    margin-right: 600px;
     margin-left: 175px;
     margin-bottom: 40px;
-    margin-top: 5px;
     text-align: center;
-    font-size: 2.5em;
-    vertical-align: middle;
+    font-size: 2.75em;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(white, red);
+    background: linear-gradient(white, #ffa314)
  
 }
 
-body  { 
-        background: 
-        font-family:sans-serif;
-        font: 'qoncrete';
-        background-color: white;
-        background: linear-gradient(white,  #1ca8c3,  white);
+div#hotel {
+    
+    background-color: lightgray;
+    width:800px;
+    margin-left:20px;
+    padding: 60px;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 50px;
+    font-size:1em;
+    
+}
+div#hotel h2{
+    
+ 
+    text-align: center;
+    
+}
+div#bb h2{
+    
+ 
+    text-align: center;
+    
 }
 
+div#hostel h2{
+    
+   
+    text-align: center;
+    
+}
+div#camping h2{
+    
+   
+    text-align: center;
+    
+}
+div#bb {
+    
+    background-color: lightgray;
+    width:800px;
+    margin-left:20px;
+    padding:60px;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 50px;
+    
+}
+div#hostel {
+    
+    background-color: lightgray;
+    width:800px;
+    margin-left:20px;
+    margin-top:10px;
+    padding: 60px;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 50px;
+}
+div#camping {
+    
+    background-color: lightgray;
+    width:800px;
+    padding: 60px; 
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    float:left;
+   
+}
+
+
+
+
 form {
-    width: 400px;
-    height: auto;
-    padding: 15px;
-    border: none;
-    background-color: #AOC7C7;
+    
+   
+    padding: 30px;
+    border: thick;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
     margin-left: 500px;
+    margin-top:50px;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
     margin: 30px;
-    border: none;
-    opacity: 0.6;
     font-size: 2em;
+    background: linear-gradient(white, lightgrey,white);
 
    
     
 }
 
 @font-face {
-    font-family: 'qoncrete';
-    src: url(http://www.dafont.com/qoncrete.font);
+    font-family: "halfmarathonfont";
+    src: url('Qoncrete 2.ttf');
 } 
         
 
-div#column {
-    float: left;
-    width: 200px;
-    height: auto;
-    padding: 15px;
-    border: thick;
-    margin-right: 15px;
-    
-}
 div#boxInfo {
     float: left;
     width: 700px;
@@ -135,38 +370,34 @@ div#boxInfo {
     padding: 15px;
     margin-right: 15px;
     background-color: white;    
+
 }
-
-
 
 ul#nav li{
     
   display: block;
-  width: 85px;
-  height: auto;
-  margin-bottom: 5px;
+  width: 90px;
   margin-right:5px;
   padding: 4px;
   text-align:center;
   float:right;
-  border-radius: 5px;
   background: radial-gradient(circle, white, lightgrey);
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     
 }
+#nav{
 
-
-
-h2 { 
-    
-   position: absolute; 
-   top: 0; 
-   left: 400px; 
-   width: 100%; 
-   font-size: 3.5em;
-   text-decoration: underline;
-   
 }
+
+div.icons {
+    
+    margin-top: 40px;
+    margin-bottom: 80px;
+    float: left;
+    
+}
+
+
 
 .icon {
     
@@ -176,11 +407,11 @@ h2 {
     font-size:1.4em;
     border-radius: 5px;
     border: thick;
-    margin-left: 80px;
+    margin-left: 95px;
     text-align: center;
     padding-top: 50px;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    background: linear-gradient(white, #1CA8C3, #57B1C3, white);
+    background: linear-gradient(white,  #ffa314, #ffa314, white, grey, white);
 }
 
 .iconallpages {
@@ -195,7 +426,7 @@ h2 {
     text-align: center;
     padding-top: 50px;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    background: linear-gradient(white, #1CA8C3, #57B1C3, white);
+    background: linear-gradient(white,  #ffa314, #ffa314, white, grey, white);
 }
 .icon1{
     
@@ -209,30 +440,26 @@ h2 {
     text-align: center;
     padding-top: 50px;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    background: linear-gradient(white, red);
+    background: linear-gradient(white, #ffa314);
 }
 
 
-h3 { 
-    font-size: 16pt;
-}
 
-h4 {
-    font-size: 12pt;
+
+div#pics img{
     
+    margin-top: 60px;
+    float: left;
+   
 }
-
-h1, h2, h3, h4 {
-    font-style:normal;
-    font-family: 'qoncrete';
-    color: purple;
+div#pics{
+    margin-left: 80px;
     
 }
 div#firstname{
     
-    font-size: 12px;
+    font-size: 1em;
     text-align: center;
-    vertical-align: bottom;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 }
 
@@ -243,26 +470,176 @@ div#surname{
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 }
 
+div#subject{
+    font-size: 1em;
+    text-align: center;
+    vertical-align: bottom;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    
+}
+textarea {
+    margin: 8px 0;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+
+div#level{
+    
+    font-size: 2em;
+}
+
+div#column {
+   
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 15px;
+    background: linear-gradient(white, white, #ffa314);
+    border-collapse: collapse; 
+    text-align: center;
+    font-size: 2em;
+    margin: 80px 30px 80px 20px;
+  
+}
+div#column h2{
+    
+    text-align: center;
+}
+
+
+
+
+div#column2 h2{
+    
+    text-align: center;
+}
+div#column2
+{
+    margin-right: 0px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 15px;
+    margin-left: 20px;
+    background: linear-gradient(white, white, #ffa314);
+    border-collapse: collapse; 
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 30px; 
+    padding: 20px;
+    
+}
+div#column3 {
+    margin-right: 0px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 15px;
+    margin-left: 20px;
+    background: linear-gradient(white, white, #ffa314);
+    border-collapse: collapse; 
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 30px; 
+    padding: 20px;
+    
+}
+div#column3 h2{
+    text-align: center
+}
+.activities {
+    float: left;
+    width: 200px;
+    height: 200px;
+    font-size:1.4em;
+    border-radius: 5px;
+    border: thick;
+    margin-left: 280px;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    background: linear-gradient(grey, white, white, grey);
+
+    
+}
+.historical{
+    float: left;
+    width: 200px;
+    height: 200px;
+    font-size:1.4em;
+    border-radius: 5px;
+    border: thick;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    background: linear-gradient(grey, white, white, grey);
+}
+
+div.dining{
+    padding: 30px;
+    border: thick;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    margin-left: 500px;
+    margin-top:20px;
+    margin-bottom: 40px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    font-size: 2em;
+    background: linear-gradient(white, lightgrey,white);
+
+    
+}
+div.dining h5 {
+    font-size: 1.5em;
+}
+div.dining img{
+    margin-top: 10px;
+}
+    
     
 footer {
+    
+    
     background-color: white;
-    clear:both;
+    clear: both;
 }
 
 
-:link {
+a:link {
     color: blue;
 }
-:visited {
+a:visited {
     color: black;
 }
 a:hover {
     background-attachment: inherit;
     font-weight: bold;
 }
-:active {
+a:active {
     color: green;
     
 }
+div.sitemap {
+      padding: 30px;
+    border: thick;
+    border-radius:15px;
+    background: linear-gradient(white, lightgrey,white);
+    margin-left: 500px;
+    margin-top:20px;
+    margin-bottom: 40px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    font-size: 2em;
+    background: linear-gradient(white, lightgrey,white);
+
+    
+    
+}
+
+div.floatimageleft {
+    float:left;
+    margin-right:10px   
+}
+
 
 
